@@ -24,7 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "concurrently \"react-scripts start\" \"nodemon server\"",
-    "server": "node ./src/server.js",
+    "server": "node ./server/app.js",
     "makeMigration": "./node_modules/knex/bin/cli.js migrate:make",
     "makeSeed": "./node_modules/knex/bin/cli.js seed:make",
     "migrate": "./node_modules/knex/bin/cli.js migrate:latest",

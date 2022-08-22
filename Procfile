@@ -1,3 +1,3 @@
 # for HEROKU
 release: npm run migrate && npm run seed
-web: node src/server.js
+web: npm run server
