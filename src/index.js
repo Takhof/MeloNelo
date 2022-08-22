@@ -13,11 +13,6 @@ root.render(
         <h2>Welcome to MeloNelo</h2>
       </header>
     </div>
-    {/* <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<App />} />
-      </Routes>
-    </BrowserRouter> */}
 
     <App />
   </React.StrictMode>
