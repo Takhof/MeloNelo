@@ -1,22 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React, { useState, useEffect } from "react";
 
 function App() {
+  const [test, setTest] = useState([]);
+
+  async function fetchData() {
+    await fetch("/api/test")
+      .then((response) => response.json())
+      .then((data) => setTest(data));
+  }
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h2>Welcome to MeloNelo</h2>
+        <h3>{console.log(test)}</h3>
       </header>
     </div>
   );
