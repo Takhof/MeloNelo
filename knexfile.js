@@ -1,14 +1,14 @@
-// Update with your config settings.
-
+require("dotenv").config();
 /**
  * @type { Object.<string, import("knex").Knex.Config> }
  */
 module.exports = {
   development: {
     client: "pg",
-    connection:
-      process.env.DATABASE_URL ||
-      `postgres://${process.env.USER}@127.0.0.1:5432/melonelo`,
+    connection: {
+      database: "melonelo",
+      user: "postgres",
+    },
     searchPath: "public",
     migrations: {
       directory: __dirname + "/migrations",

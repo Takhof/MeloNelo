@@ -27,7 +27,6 @@
     "migrate": "./node_modules/knex/bin/cli.js migrate:latest",
     "seed": "./node_modules/knex/bin/cli.js seed:run",
     "rollback": "./node_modules/knex/bin/cli.js migrate:rollback"
-
   },
   "eslintConfig": {
     "extends": [
