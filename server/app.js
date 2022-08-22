@@ -9,12 +9,15 @@ app.get("/api", (req, res) => {
 });
 //awef
 app.get("/api/test", (req, res) => {
-  console.log(database);
   database("performance")
     .select()
     .then((result) => {
       res.send(result);
     });
+});
+
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "build/index.html"));
 });
 
 module.exports = app;
