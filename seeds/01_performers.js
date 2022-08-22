@@ -4,6 +4,8 @@
  */
 exports.seed = async function (knex) {
   // Deletes ALL existing entries
+  await knex("performance").del();
+  await knex("users").del();
   await knex("performers").del();
   await knex("performers").insert([
     {

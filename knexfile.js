@@ -3,11 +3,23 @@ require("dotenv").config();
  * @type { Object.<string, import("knex").Knex.Config> }
  */
 module.exports = {
+  client: "postgres",
+  connection: {
+    database: process.env.PG_DATABASE,
+    user: process.env.PG_USER,
+  },
+  searchPath: "public",
+  migrations: {
+    directory: __dirname + "/migrations",
+  },
+  seeds: {
+    directory: __dirname + "/seeds",
+  },
   development: {
     client: "pg",
     connection: {
-      database: "melonelo",
-      user: "postgres",
+      database: process.env.PG_DATABASE,
+      user: process.env.PG_USER,
     },
     searchPath: "public",
     migrations: {
