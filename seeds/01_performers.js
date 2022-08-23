@@ -4,6 +4,7 @@
  */
 exports.seed = async function (knex) {
   // Deletes ALL existing entries
+  await knex("crowdsource").del();
   await knex("performance").del();
   await knex("users").del();
   await knex("performers").del();
@@ -28,6 +29,20 @@ exports.seed = async function (knex) {
       password: "Michael123",
       pricehour: "400000",
       description: "OH YEAH!",
+    },
+    {
+      id: 4,
+      name: "Tomato",
+      password: "Tomato123",
+      pricehour: "50",
+      description: "Cool Guy",
+    },
+    {
+      id: 5,
+      name: "Beethoven",
+      password: "Beethoven123",
+      pricehour: "400000",
+      description: "Piano",
     },
   ]);
 };
