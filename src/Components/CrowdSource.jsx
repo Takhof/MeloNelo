@@ -17,6 +17,7 @@ function CrowdSource() {
   let displayCrowdSource = data.map((event) => {
     return (
       <div className="crowdsource">
+        Hi
         <Link to={"/crowdsource/" + event.id}>
           {`
           ${event.title} 
