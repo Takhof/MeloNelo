@@ -47,7 +47,7 @@ module.exports = {
   production: {
     client: "pg",
     connection: {
-      connectionString: `postgres://${process.env.USER}@127.0.0.1:5432/melonelo`,
+      connectionString: process.env.DATABASE_URL,
       ssl: { rejectUnauthorized: false },
     },
     migrations: {
