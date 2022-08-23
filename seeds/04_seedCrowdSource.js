@@ -10,21 +10,21 @@ exports.seed = async function (knex) {
       performer_id: 4,
       title: "Tomato's Violin",
       remaining_goal: 8000,
-      description: "Tomato's first concert! Support Tomato now!",
+      CSdescription: "Tomato's first concert! Support Tomato now!",
     },
     {
       id: 2,
       performer_id: 5,
       title: "Beethoven's first recital",
       remaining_goal: 12000,
-      description: "I am poor and need money to perform. Please help!",
+      CSdescription: "I am poor and need money to perform. Please help!",
     },
     {
       id: 3,
       performer_id: 3,
       title: "DAY OF MJ",
       remaining_goal: 12000,
-      description: "COME SEE ME LEAN 45 DEGREES!",
+      CSdescription: "COME SEE ME LEAN 45 DEGREES!",
     },
   ]);
 };
