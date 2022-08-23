@@ -3,9 +3,9 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import CrowdSource from "./Components/CrowdSource";
 import CrowdSourceDetail from "./Components/CrowdSourceDetail";
+import Concerts from "./Components/Performance";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./Pages/HomePage";
-import UserPage from "./Pages/UserPage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -15,6 +15,7 @@ root.render(
         <Route path="/" element={<HomePage />} />
         <Route path="/crowdsource" element={<CrowdSource />} />
         <Route path="/crowdsource/:id" element={<CrowdSourceDetail />} />
+        <Route path="/performance" element={<Concerts />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

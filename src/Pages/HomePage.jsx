@@ -9,7 +9,7 @@ export default function Homepage() {
         <Link to="crowdsource">Be a supporter</Link>
       </p>
       <p>
-        <Link to="performance">See performance</Link>
+        <Link to="performance">See a performance</Link>
       </p>
     </div>
   );

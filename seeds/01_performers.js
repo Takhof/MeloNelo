@@ -25,7 +25,7 @@ exports.seed = async function (knex) {
     },
     {
       id: 3,
-      name: "Michael Jackson",
+      name: "Michael Paxton",
       password: "Michael123",
       pricehour: "400000",
       description: "OH YEAH!",
@@ -43,6 +43,13 @@ exports.seed = async function (knex) {
       password: "Beethoven123",
       pricehour: "400000",
       description: "Piano",
+    },
+    {
+      id: 6,
+      name: "TAKASHI",
+      password: "Takashi123",
+      pricehour: "1000000",
+      description: "The sound of the gods",
     },
   ]);
 };

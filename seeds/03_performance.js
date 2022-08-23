@@ -31,5 +31,13 @@ exports.seed = async function (knex) {
       description:
         "A concert filled with French Composers including Debussy, Ravel, and more at Tokyo Dome.",
     },
+    {
+      id: 4,
+      performer_id: 6,
+      title: `Takashi's Voice`,
+      remaining_seats: 1,
+      price: 150000,
+      description: "You will hear the voice of the Gods.",
+    },
   ]);
 };
