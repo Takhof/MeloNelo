@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# MeloNelo - the crowd funding app for events.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It's very hard for aspiring musicians to get funding or succeed. This App aims to connect the musicians and everyday people and to make the world a better place by filling it with music and creating success for more musicians.
 
 ## Available Scripts
 
