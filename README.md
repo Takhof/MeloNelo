@@ -8,6 +8,12 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/Takhof/MeloNelo">
+    <img src="logo.png" alt="Logo" width="200" height="200">
+  </a>
 
 
 # MeloNelo - the crowd funding app for events.
