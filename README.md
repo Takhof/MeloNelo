@@ -14,6 +14,7 @@
   <a href="https://github.com/Takhof/MeloNelo">
     <img src="logo.png" alt="Logo" width="200" height="200">
   </a>
+  </div>
 
 
 # MeloNelo - the crowd funding app for events.
