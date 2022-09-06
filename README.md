@@ -6,9 +6,12 @@ It's very hard for aspiring musicians to get funding or succeed. This App aims t
 
 In the project directory, you can run:
 
+### `npm dev`
+
+Runs nodemon and react scripts concurrently to view the rendered version of your code!
+
 ### `npm start`
 
-Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
