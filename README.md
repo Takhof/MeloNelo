@@ -55,3 +55,16 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/Takhof/MeloNelo.svg?style=for-the-badge
+[contributors-url]: https://github.com/Takhof/MeloNelo/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Takhof/MeloNelo.svg?style=for-the-badge
+[forks-url]: https://github.com/Takhof/MeloNelo/network/members
+[stars-shield]: https://img.shields.io/github/stars/Takhof/MeloNelo.svg?style=for-the-badge
+[stars-url]: https://github.com/Takhof/MeloNelo/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Takhof/MeloNelo.svg?style=for-the-badge
+[issues-url]: https://github.com/Takhof/MeloNelo/issues
+[license-shield]: https://img.shields.io/github/license/Takhof/MeloNelo.svg?style=for-the-badge
+[license-url]: https://github.com/Takhof/MeloNelo/blob/master/LICENSE.txt
