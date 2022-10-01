@@ -21,6 +21,9 @@
 
 Currently, it's difficult for aspiring musicians to get funding or succeed. This App aims to connect the musicians and everyday people and to make the world a better place by filling it with music and creating success for more musicians.
 
+This project is work-in-progress. I hope to complete it and release it as a phone app in the near future.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
